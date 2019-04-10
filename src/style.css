@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    background-color: #F5F5F5;
+}
+.bg{
+    z-index: -9999;
+}
+.bg1{
+    z-index: -9998;
+    clip-path: polygon(0 30vw, 30vw 0, 45vw 0, 0 45vw);
+    height: 200vh;
+    background-color: #CFCECE;
+}
+.bg2{
+    z-index: -9999;
+    position: absolute;
+    clip-path: polygon(0 0vw, 0vw 0, 30vw 0, 0 30vw);
+    height: 200vh;
+    width: 100%;
+    background-color: #FEFFB6;
+    top: 0;
+}
+.txtBold{
+    font-size: 30pt;
+    font-weight: bold;
+}
+.container{
+    margin-top: 100px;
+    margin-left: 121px;
+    margin-right: 121px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+/*.wrapper:before{*/
+    /*position: absolute;*/
+    /*top: 26rem;*/
+    /*left: 3rem;*/
+    /*content: "\25CF";*/
+    /*font-size: 200px;*/
+    /*color: #DAE1EC;*/
+/*}*/
+.control{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 3rem;
+    border-radius: 100%;
+    font-size: 50px;
+    background-color: #DAE1EC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.control>i{
+    color: #000000ab;
+}
+.slide{
+    min-width: 346px;
+    min-height: 609px;
+    background-color: #fff;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 5px;
+    transition: .1s;
+}
+.slide:first-child{
+    margin-left: 0;
+}
+.slide:hover{
+    position: relative;
+    box-shadow: inset 15px 0px 0px 0px rgb(219, 73, 81);
+    transform: translateY(10px);
+    transition: .1s;
+}
+
+.counter{
+    display: inline-block;
+    border-bottom: 1px solid red;
+    font-size: 48px;
+    margin-bottom: 32px;
+}
+.nameSlide{
+    Font-Style: Regular;
+    Font-Size: 24px;
+    Line-Height: 28px;
+    margin-bottom: 32px;
+}
+.slide .img{
+    text-align: center;
+    margin-bottom: 32px;
+}
+img{
+    max-width: 320px;
+}
+.about{
+    max-width: 330px;
+}
+
+.home-works{
+    background-color: #fff;
+    padding: 60px;
+    border-radius: 5px;
+}
+.home-works .aboutFrame{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.home-works>.txtBold{
+    display: inline-block;
+    border-bottom: 1px solid red;
+    padding-bottom: 10px;
+}
+iframe{
+    border: none;
+    border-radius: 5px;
+}
