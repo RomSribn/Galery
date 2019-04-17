@@ -3,10 +3,60 @@
 <head>
 	<meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
 	<title>Document</title>
 </head>
 <body>
+<!--<div class="bg">-->
+	<!--<div class="bg1"></div>-->
+	<!--<div class="bg2"></div>-->
+<!--</div>-->
+<div class="container">
+	<p class="txtBold">Мои работы</p>
+	<div class="wrapper">
+		<div class="control left" data-control="left"><i class="fas fa-chevron-left"></i></div>
+		<div class="control right" data-control="right"><i class="fas fa-chevron-right"></i></div>
+		<div class="slide" data-type="slide" data-slide="15Game">
+			<p class="counter txtBold">01</p>
+			<p class="nameSlide">Пятнашки</p>
+			<div class="img"><img src="images/15Game.png" alt="15Game" ></div>
+			<p class="about">Перемещая костяшки по коробке, добиться упорядочивания их по номерам, желательно сделав как можно меньше перемещений.</p>
+		</div>
+		<div class="slide" data-type="slide" data-slide="Solitaire">
+			<p class="counter txtBold">02</p>
+			<p class="nameSlide">Косынка</p>
+			<div class="img"><img src="images/Solitaire.png" alt="Solitaire"></div>
+			<p class="about">В свободную ячейку (не дом) можно положить только короля. Игра заканчивается, когда все карты разложены. Цель игры состоит в том, чтобы разложить все карты в четыре стопки по возрастанию, начиная с туза так, чтобы карты одной масти находились в одной стопке.</p>
+		</div>
+		<div class="slide" data-type="slide" data-slide="Maze">
+			<p class="counter txtBold">03</p>
+			<p class="nameSlide">Лабиринт</p>
+			<div class="img"><img src="images/Maze.png" alt="Maze"></div>
+			<p class="about">Сначала выберете желаемый размер поля ( Колонки | Строки ). Создайте поля, нажав "Create grid!" и с помощью клика выберете точку старта и финиша. После нажатия "Find path!", программа вычислит кратчайший путь ( если возможно ) </p>
+		</div>
+		<div class="slide" data-type="slide" data-slide="empty" hidden>
+			<p class="counter txtBold">04</p>
+			<p class="nameSlide">Это будет потом"</p>
+			<div class="img"><img src="images/empty.png" alt="Maze"></div>
+			<p class="about"></p>
+		</div>
+	</div>
 
+	<!-- Place fo frames-->
+	<div class="home-works">
+		<div class="aboutFrame">
+			<div class="txtBold">Домашки</div>
+			<p>Я уже многое знаю и умею. Выбери любую из моих домашек и посмотри, как она работает.</p>
+		</div>
+	</div>
+	<div class="frames">
+
+		<!--<iframe src="frames/Solitaire/index.html" width="1000"  height="800" frameborder="0" id="Solitaire"></iframe>-->
+		<!--<iframe src="frames/Maze/index.html" width="1000"  height="800" frameborder="0" id="Maze"></iframe>-->
+	</div>
+</div>
 
 </body>
 </html>
