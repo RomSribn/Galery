@@ -52,7 +52,6 @@ body{
     width: 100px;
     height: 100px;
     top: 50%;
-    left: 3rem;
     border-radius: 100%;
     font-size: 50px;
     background-color: #DAE1EC;
@@ -61,8 +60,17 @@ body{
     justify-content: center;
     z-index: 1;
 }
+.control.left{
+    left: 3rem;
+}
+.control.right{
+    left: 91%;
+}
 .control>i{
     color: #000000ab;
+}
+.control:hover{
+    box-shadow: 1px 1px 2px rgba(72, 74, 77, 0.65);
 }
 .slide{
     min-width: 346px;
